@@ -2,7 +2,7 @@
 
 Flutter Firebase Storage Example 입니다.
 
-공식 [FlutterFire Storage Example](https://github.com/FirebaseExtended/flutterfire/blob/master/packages/firebase_storage/example/lib/main.dart
+공식 [FlutterFire Storage Example](https://github.com/FirebaseExtended/flutterfire/blob/master/packages/firebase_storage/example
 ) 코드를 일부 수정하여 사용하였습니다.
 
 ## 수정 사항
