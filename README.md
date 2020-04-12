@@ -13,4 +13,4 @@ Firebase option 정보들은 이미 firebase console 에서 다운 받은
 
 파일에 포함되어 있기 때문에 코드를 단순화 할 수 있습니다.
 
-![Alt text](/path/to/img.jpg)
+![](https://github.com/YUNHANKYU/Flutter_Firebase_Storage/blob/master/image.png?raw=true)
