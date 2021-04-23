@@ -1,19 +1,18 @@
 # Flutter_Firebase_Storage
 
-Flutter Firebase Storage Example 입니다.
+한동대학교 모바일앱개발 수업 실습에 활용되는 Flutter Firebase Storage Example 입니다.
 
-공식 [FlutterFire Storage Example](https://github.com/FirebaseExtended/flutterfire/blob/master/packages/firebase_storage/example
+공식 [FlutterFire Storage Example 원본](https://github.com/FirebaseExtended/flutterfire/blob/master/packages/firebase_storage/example
 ) 코드를 일부 수정하여 사용하였습니다.
 
-## 수정 사항
 
-Firebase option 정보들은 이미 firebase console 에서 다운 받은
+[예시 코드에서 수정된 사항]
 
-**google-services.json ( Android ) / GoogleService-Info.plist ( iOS )**
+1. Upload from String 의 txt 파일명이 중복되지 않고 업로드 가능하도록, 시간 기반으로 파일명 수정.﻿
 
-파일에 포함되어 있기 때문에 코드를 단순화 할 수 있습니다.
+2. Upload from File 기능 제거
 
-![](https://github.com/YUNHANKYU/Flutter_Firebase_Storage/blob/master/image.png?raw=true)
+    - Upload from String과 개념이 크게 다르지 않고 Simulator, Emulator에서 지원되지 않아 가려두었습니다.
 
 
 ## Getting Started
