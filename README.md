@@ -13,8 +13,6 @@
 
 2. Upload from File 기능 제거
 
-    - Upload from String과 개념이 크게 다르지 않고 Simulator, Emulator에서 지원되지 않아 가려두었습니다.
-
 
 ## Getting Started
 
