@@ -2,7 +2,7 @@
 
 한동대학교 모바일앱개발 수업 실습에 활용되는 Flutter Firebase Storage Example 입니다.
 
-공식 [FlutterFire Storage Example 원본](https://github.com/FirebaseExtended/flutterfire/blob/master/packages/firebase_storage/firebase_storage/example/lib/main.dart
+공식 [FlutterFire Storage Example 원본](https://github.com/FirebaseExtended/flutterfire/blob/master/packages/firebase_storage/example
 ) 코드를 일부 수정하여 사용하였습니다.
 
 > TODO: Firebase 프로젝트를 만들고 Flutter 프로젝트와 연결해줘야합니다.

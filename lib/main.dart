@@ -120,8 +120,8 @@ class _TaskManager extends State<TaskManager> {
       SnackBar(
         content: Text(
           'Success!\n Downloaded ${ref.name} \n from bucket: ${ref.bucket}\n '
-              'at path: ${ref.fullPath} \n'
-              'Wrote "${ref.fullPath}" to tmp-${ref.name}.txt',
+          'at path: ${ref.fullPath} \n'
+          'Wrote "${ref.fullPath}" to tmp-${ref.name}.txt',
         ),
       ),
     );
@@ -138,12 +138,12 @@ class _TaskManager extends State<TaskManager> {
             icon: const Icon(Icons.add),
             itemBuilder: (context) => [
               const PopupMenuItem(
-                // ignore: sort_child_properties_last
+                  // ignore: sort_child_properties_last
                   child: Text('Upload string'),
                   value: UploadType.string),
               if (_uploadTasks.isNotEmpty)
                 const PopupMenuItem(
-                  // ignore: sort_child_properties_last
+                    // ignore: sort_child_properties_last
                     child: Text('Clear list'),
                     value: UploadType.clear)
             ],
@@ -153,17 +153,17 @@ class _TaskManager extends State<TaskManager> {
       body: _uploadTasks.isEmpty
           ? const Center(child: Text("Press the '+' button to add a new file."))
           : ListView.builder(
-        itemCount: _uploadTasks.length,
-        itemBuilder: (context, index) => UploadTaskListTile(
-          task: _uploadTasks[index],
-          onDismissed: () => _removeTaskAtIndex(index),
-          onDownloadLink: () {
-            return _downloadLink(_uploadTasks[index].snapshot.ref);
-          },
-          onDownload: () =>
-              _downloadFile(_uploadTasks[index].snapshot.ref),
-        ),
-      ),
+              itemCount: _uploadTasks.length,
+              itemBuilder: (context, index) => UploadTaskListTile(
+                task: _uploadTasks[index],
+                onDismissed: () => _removeTaskAtIndex(index),
+                onDownloadLink: () {
+                  return _downloadLink(_uploadTasks[index].snapshot.ref);
+                },
+                onDownload: () =>
+                    _downloadFile(_uploadTasks[index].snapshot.ref),
+              ),
+            ),
     );
   }
 }
@@ -201,9 +201,9 @@ class UploadTaskListTile extends StatelessWidget {
     return StreamBuilder<firebase_storage.TaskSnapshot>(
       stream: task.snapshotEvents,
       builder: (
-          BuildContext context,
-          AsyncSnapshot<firebase_storage.TaskSnapshot> asyncSnapshot,
-          ) {
+        BuildContext context,
+        AsyncSnapshot<firebase_storage.TaskSnapshot> asyncSnapshot,
+      ) {
         Widget subtitle = const Text('---');
         firebase_storage.TaskSnapshot snapshot = asyncSnapshot.data;
         firebase_storage.TaskState state = snapshot?.state;
