@@ -6,6 +6,8 @@
 ) 코드를 일부 수정하여 사용하였습니다.
 
 > TODO: 본인의 Firebase 프로젝트를 만들고, 이 샘플 Flutter 프로젝트에 연결하셔야 합니다.
+  > iOS - GoogleService-Info.plist 추가
+  > Android - google-services.json 추가
 
 시연 영상: https://drive.google.com/file/d/1b9_T3cuSI8sDCj-SPnATjIMLJgKmf2AD/view?usp=sharing
 
