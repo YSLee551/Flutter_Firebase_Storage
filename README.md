@@ -5,11 +5,11 @@
 공식 [FlutterFire Storage Example 원본](https://github.com/FirebaseExtended/flutterfire/tree/master/packages/firebase_storage/firebase_storage
 ) 코드를 일부 수정하여 사용하였습니다.
 
-> TODO: Firebase 프로젝트를 만들고 Flutter 프로젝트와 연결해줘야합니다.
+> TODO: 본인의 Firebase 프로젝트를 만들고, 이 샘플 Flutter 프로젝트에 연결하셔야 합니다.
 
 ## [예시 코드에서 수정된 사항]
 
-1. Upload from String 의 txt 파일명이 중복되지 않고 업로드 가능하도록, 시간 기반으로 파일명 수정.﻿
+1. Upload from String 의 txt 파일명이 중복되지 않고 업로드 가능하도록, 시간 기반으로 파일명 수정
 
 2. Upload from File 기능 제거
 
