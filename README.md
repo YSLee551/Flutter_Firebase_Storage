@@ -9,6 +9,8 @@
 
 시연 영상: https://drive.google.com/file/d/1b9_T3cuSI8sDCj-SPnATjIMLJgKmf2AD/view?usp=sharing
 
+Storage 권한 관련 에러가 발생할 경우 참고: https://stackoverflow.com/questions/65048371/fire-storage-exception-firebase-storage-unauthorized-user-is-not-authorized-t
+
 ## [예시 코드에서 수정된 사항]
 
 1. Upload from String 의 txt 파일명이 중복되지 않고 업로드 가능하도록, 시간 기반으로 파일명 수정
